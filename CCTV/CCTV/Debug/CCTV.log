@@ -1,0 +1,28 @@
+﻿빌드 시작: 2018-12-05 오전 5:01:06
+     1>2 노드의 "J:\KGH\CCTV\CCTV\CCTV.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CCTV.cpp
+         CCTV.cpp
+     1>c:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\KGH\CCTV\Debug\CCTV.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc12\lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\KGH\CCTV\Debug\CCTV.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\KGH\CCTV\Debug\CCTV.lib" /MACHINE:X86 Debug\CCTV.obj
+     1>CCTV.obj : error LNK2019: _cvCreateImage 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvReleaseImage 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvSetZero 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvConvertScale 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvAcc 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvCvtColor 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvShowImage 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvDestroyAllWindows 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvSaveImage 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvWaitKey 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvCreateCameraCapture 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvQueryFrame 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvReleaseCapture 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>CCTV.obj : error LNK2019: _cvGetCaptureProperty 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>J:\KGH\CCTV\Debug\CCTV.exe : fatal error LNK1120: 14개의 확인할 수 없는 외부 참조입니다.
+     1>"J:\KGH\CCTV\CCTV\CCTV.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.98
